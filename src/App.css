@@ -120,7 +120,7 @@ img.faculty-profile-img {
 /* Lead */
 .member-container {
   margin-top: 10px;
-  width: 17vw;
+  width: auto;
 }
 .member-body {
   object-fit: contain;
@@ -168,7 +168,9 @@ img.faculty-profile-img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 12px;
+}
+#lead-tech,#lead-nontech{
+  width: 15vw;
 }
 #lead-nontech{
   margin-left: 75px;
@@ -249,7 +251,12 @@ img.faculty-profile-img {
   }
 
   #lead-tech,#lead-nontech{
-    width: 45vw;
+    width: 55vw;
+  }
+
+  #lead-nontech{
+    margin-top: 20px;
+    margin-left: 0px;
   }
 
   

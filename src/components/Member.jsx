@@ -16,7 +16,7 @@ function Member(props) {
          
           <div className="member-social-link">
               {/* instagram */}
-              {props.linkedin_link && <a href={props.linked_link} target="_">
+              {props.linkedin_link && <a href={props.linkedin_link} target="_">
                 <img
                   src="https://img.icons8.com/fluency/344/linkedin.png"
                   alt="linkedin icon"
