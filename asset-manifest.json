@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/androidclubvitbhopal.github.io/static/css/main.0d2b75bb.css",
-    "main.js": "/androidclubvitbhopal.github.io/static/js/main.6d5be820.js",
+    "main.js": "/androidclubvitbhopal.github.io/static/js/main.f0b1762f.js",
     "static/js/787.33d2fe70.chunk.js": "/androidclubvitbhopal.github.io/static/js/787.33d2fe70.chunk.js",
     "static/media/android_black.png": "/androidclubvitbhopal.github.io/static/media/android_black.5f97446cd2f8d0cf0df9.png",
     "static/media/tamanna.jpeg": "/androidclubvitbhopal.github.io/static/media/tamanna.c000315f35824e9bae93.jpeg",
@@ -11,11 +11,11 @@
     "static/media/rohan.jpg": "/androidclubvitbhopal.github.io/static/media/rohan.e6fad50a7d49d53ba0a7.jpg",
     "index.html": "/androidclubvitbhopal.github.io/index.html",
     "main.0d2b75bb.css.map": "/androidclubvitbhopal.github.io/static/css/main.0d2b75bb.css.map",
-    "main.6d5be820.js.map": "/androidclubvitbhopal.github.io/static/js/main.6d5be820.js.map",
+    "main.f0b1762f.js.map": "/androidclubvitbhopal.github.io/static/js/main.f0b1762f.js.map",
     "787.33d2fe70.chunk.js.map": "/androidclubvitbhopal.github.io/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d2b75bb.css",
-    "static/js/main.6d5be820.js"
+    "static/js/main.f0b1762f.js"
   ]
 }
