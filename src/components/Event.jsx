@@ -34,13 +34,19 @@ function Event(props) {
                       {props.schedule_time}
                   </div>
 
+                  <div className="event-venue">
+                     <img src="https://img.icons8.com/color/344/marker.png" alt="" width={17} style={{marginRight:"7px"}} />
+                      {props.venue}
+                  </div>
+
                   
               </div>
-              <div className="event-register-btn">
+              <div className={`event-register-btn`}>
                 <a
                   href={props.linktojoin}
                   target="_"
-                  className="btn btn-primary"
+                  className={`btn btn-primary ${props.disabled}`}
+                  
                 >
                   Register
                 </a>

@@ -16,13 +16,14 @@ function FutureEvents() {
             />
           </div> */}
 
-          <div className="col-md-3">
+          <div className="col-md-4">
             <Event
               imageurl={require("../assets/event/android-masterclass-15042022.jpg")}
               title="Android Masterclass"
               desc={"Rachit Goyal \n - Senior Android Lead at Walmart Labs"}
               schedule_date="April 15, 2022"
               schedule_time="5PM - 8:30PM"
+              venue="Online"
               linktojoin="https://docs.google.com/forms/d/e/1FAIpQLSeEJjAor60CNVFeR6CccS5vxPC9JLLfR_DQi8vuiqI5UXSXSQ/viewform"
             />
           </div>

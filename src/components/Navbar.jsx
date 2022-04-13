@@ -7,8 +7,14 @@ function Navbar() {
 
 
   useEffect(() => {
+
+    if(window.innerWidth < 600){
+      handleShow(true);
+      return;
+    }
+
     window.addEventListener("scroll", () => {
-      if ( window.innerWidth < 600 || window.scrollY > 50) {
+      if ( window.scrollY > 50) {
         handleShow(true);
       }
       else{

@@ -13,9 +13,9 @@
 }
 
 .home-description {
-  margin: 0px 250px;
+  margin: 0px 200px;
   font-size: 17px;
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -45,20 +45,23 @@ nav.bg-light {
 .nav-item:hover {
   border-bottom: 2px solid black;
 }
-
+.event-item-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .event-title{
   font-size: 55px;
 }
 .events {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   padding-top: 80px;
 }
 .event {
-  width: 100%;
-  height: 355px;
+  width: 85%;
+  height: 66vh;
   margin-top: 10px;
   box-shadow: 0px 0px 4px #5454552f;
 }
@@ -69,17 +72,19 @@ nav.bg-light {
   display: flex;
 }
 .event-register-btn {
+  margin-top: 12px;
   margin-left: auto;
 }
 
 /* Events component */
 .card-container {
   object-position: center;
-  padding: 5px;
+  width: 100%;
+  margin:15px 27px;
 }
 .card-img-top {
-  height: 20vh;
-  object-position: 0% 30%;
+  height: 30vh;
+  object-position: 0% 27%;
   object-fit: cover;
 }
 
@@ -111,13 +116,11 @@ img.faculty-profile-img {
   align-items: center;
   justify-content: center;
 }
-.faculty-container{
-  
-}
 
 /* Lead */
 .member-container {
   margin-top: 10px;
+  width: 17vw;
 }
 .member-body {
   object-fit: contain;
@@ -167,8 +170,8 @@ img.faculty-profile-img {
   justify-content: center;
   padding-top: 12px;
 }
-#lead-nontech, #lead-tech{
-  margin-left: 12px;
+#lead-nontech{
+  margin-left: 75px;
 }
 .about-nav .active {
   border-bottom: 2px solid black;
@@ -197,9 +200,9 @@ img.faculty-profile-img {
   }
 
   .home-description {
-    margin: 0px 17px;
+    margin: 0px 20px;
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
   }
 
   .container-mobile{
