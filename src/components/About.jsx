@@ -10,7 +10,7 @@ function About() {
   return (
     <div id="about" className="container container-fluid my-5 about-container">
       <div className="about-body-container">
-        <p className="display-5 my-5" style={{textAlign:"center"}}>Meet the Team</p>
+        <p className="display-5 my-5" style={{textAlign:"center", fontWeight:"normal"}}>Meet the Team</p>
         <div>
           <Faculty
             title="Dr. Sandip Mal"

@@ -34,7 +34,7 @@ function PastEvents() {
 
         <div className="col-md-4">
           <Event
-            imageurl={require("../assets/event/_national-workshop-banner.jpg")}
+            imageurl={require("../assets/event/national-workshop-banner.jpg")}
             title="Workshop on Android Application Development"
             desc="3 days National Workshop on Android Application Development"
             schedule_date="16/03/2018 - 18/03/2018"

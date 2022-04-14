@@ -18,7 +18,7 @@ function FutureEvents() {
 
           <div className="col-md-4">
             <Event
-              imageurl={require("../assets/event/android-masterclass-15042022.jpg")}
+              imageurl={require("../assets/event/handson-workshop.png")}
               title="Android Masterclass"
               desc={"Rachit Goyal \n - Senior Android Lead at Walmart Labs"}
               schedule_date="April 15, 2022"

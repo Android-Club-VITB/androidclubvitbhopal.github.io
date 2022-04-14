@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div id="contact" className="contact-container container container-fluid">
-      <p className="display-5">Contact</p>
+      <p className="display-5" style={{fontWeight:"normal"}}>Contact</p>
       <div className="form-container card">  
           <form>
             <div className="mb-3">

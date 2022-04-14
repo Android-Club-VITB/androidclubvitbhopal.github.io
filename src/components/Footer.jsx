@@ -168,7 +168,7 @@ function Footer() {
                   height={18}
                   style={{marginBottom:"4px"}}
                 />{" "}
-                Linked in
+                LinkedIn
               </a>
             </li>
           </ul>
