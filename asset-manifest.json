@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf9fa0cc.css",
-    "main.js": "/static/js/main.9fb386d9.js",
+    "main.css": "/static/css/main.a53bedf8.css",
+    "main.js": "/static/js/main.2b4442a6.js",
     "static/js/787.33d2fe70.chunk.js": "/static/js/787.33d2fe70.chunk.js",
-    "static/media/_national-workshop-banner.jpg": "/static/media/_national-workshop-banner.d2251f087c74fa9a58f8.jpg",
+    "static/media/national-workshop-banner.jpg": "/static/media/national-workshop-banner.d2251f087c74fa9a58f8.jpg",
     "static/media/android_black.png": "/static/media/android_black.5f97446cd2f8d0cf0df9.png",
     "static/media/v-code.png": "/static/media/v-code.1d58e3a733a15b9415a5.png",
     "static/media/blind-coding.png": "/static/media/blind-coding.f86c24d0c3cd3526de5c.png",
     "static/media/tamanna.jpeg": "/static/media/tamanna.c000315f35824e9bae93.jpeg",
-    "static/media/android-masterclass-15042022.jpg": "/static/media/android-masterclass-15042022.c62bbd6ff51fc8388e8d.jpg",
+    "static/media/handson-workshop.png": "/static/media/handson-workshop.6894de2a521575b51db9.png",
     "static/media/home_illustratation.png": "/static/media/home_illustratation.502f1ecd24f2918ec82a.png",
     "static/media/contactbg-illust.png": "/static/media/contactbg-illust.b84a0054126edbbffc8b.png",
     "static/media/rohan.jpg": "/static/media/rohan.e6fad50a7d49d53ba0a7.jpg",
     "index.html": "/index.html",
-    "main.cf9fa0cc.css.map": "/static/css/main.cf9fa0cc.css.map",
-    "main.9fb386d9.js.map": "/static/js/main.9fb386d9.js.map",
+    "main.a53bedf8.css.map": "/static/css/main.a53bedf8.css.map",
+    "main.2b4442a6.js.map": "/static/js/main.2b4442a6.js.map",
     "787.33d2fe70.chunk.js.map": "/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf9fa0cc.css",
-    "static/js/main.9fb386d9.js"
+    "static/css/main.a53bedf8.css",
+    "static/js/main.2b4442a6.js"
   ]
 }
