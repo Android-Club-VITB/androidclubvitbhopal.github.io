@@ -6,6 +6,18 @@ function PastEvents() {
     <div id="events" className="container container-fluid">
       <div className="row event-item-container"> 
         
+          <div className="col-md-4">
+            <Event
+              imageurl={require("../assets/event/handson-workshop.png")}
+              title="Android Masterclass"
+              desc={"Rachit Goyal \n - Senior Android Lead at Walmart Labs"}
+              schedule_date="April 15, 2022"
+              schedule_time="5PM - 8:30PM"
+              venue="Online"
+              linktojoin="https://docs.google.com/forms/d/e/1FAIpQLSeEJjAor60CNVFeR6CccS5vxPC9JLLfR_DQi8vuiqI5UXSXSQ/viewform"
+            />
+          </div>
+
          <div className="col-md-4">
           <Event
             imageurl={require("../assets/event/v-code.png")}
@@ -45,17 +57,7 @@ function PastEvents() {
           />
         </div> 
 
-        <div className="col-md-4">
-            <Event
-              imageurl={require("../assets/event/handson-workshop.png")}
-              title="Android Masterclass"
-              desc={"Rachit Goyal \n - Senior Android Lead at Walmart Labs"}
-              schedule_date="April 15, 2022"
-              schedule_time="5PM - 8:30PM"
-              venue="Online"
-              linktojoin="https://docs.google.com/forms/d/e/1FAIpQLSeEJjAor60CNVFeR6CccS5vxPC9JLLfR_DQi8vuiqI5UXSXSQ/viewform"
-            />
-          </div>
+        
         
 
       </div>
