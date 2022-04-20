@@ -15,6 +15,7 @@ function PastEvents() {
               schedule_time="5PM - 8:30PM"
               venue="Online"
               linktojoin="https://docs.google.com/forms/d/e/1FAIpQLSeEJjAor60CNVFeR6CccS5vxPC9JLLfR_DQi8vuiqI5UXSXSQ/viewform"
+              disabled="disabled"
             />
           </div>
 
