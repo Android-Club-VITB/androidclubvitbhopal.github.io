@@ -83,7 +83,7 @@ function Footer() {
               width={110}
             />
           </a>
-          <p className="text-muted">© 2022 Android Club</p>
+
         </div>
 
         <div className="col">
@@ -171,9 +171,28 @@ function Footer() {
                 LinkedIn
               </a>
             </li>
+
+            <li className="mb-2">
+              <a
+                href="https://github.com/androidclubvitbhopal"
+                target="_"
+                className="nav-link p-0 text-muted"
+              >
+                <img
+                  src="https://img.icons8.com/ios-glyphs/344/github.png"
+                  alt=""
+                  width={18}
+                  height={18}
+                  style={{marginBottom:"4px"}}
+                />{" "}
+                Github
+              </a>
+            </li>
+            
           </ul>
         </div>
       </footer>
+      <p className="text-muted" style={{textAlign:"center",fontSize:"14px"}}>© 2022 Android Club VIT Bhopal. All Rights reserved.</p>
     </div>
   );
 }
