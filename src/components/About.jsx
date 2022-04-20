@@ -3,6 +3,7 @@ import AboutLeads from "./AboutLeads";
 import Faculty from "./Faculty";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Developer from "./Developer";
 
 
 function About() {
@@ -53,7 +54,10 @@ function About() {
         
 
         <div>
-          {selected.component}
+          {/* {selected.component} */}
+          <AboutLeads/>
+          <Developer/>
+          
         </div>
         <Contact/>
         <Footer/>

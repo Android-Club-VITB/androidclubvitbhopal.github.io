@@ -25,7 +25,7 @@ function AboutLead() {
             github_link="https://github.com/tamununaaa"
             insta_link="https://www.instagram.com/tamununaaa/"
           />
-        </div>
+        </div>      
 
       {/* </div> */}
     </div>
