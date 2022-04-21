@@ -45,7 +45,7 @@ function Navbar() {
         <div className="container container-fluid navbar-mobile">
             <a className="navbar-brand" href="#">
               <img
-                src={require("../assets/images/android_black.png")}
+                src={require("../assets/images/android_club_logo.png")}
                 alt=""
                 width="54"
                 height="50"
