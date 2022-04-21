@@ -66,7 +66,7 @@ function Footer() {
             className="d-flex align-items-center mb-3 link-dark text-decoration-none"
           >
             <img
-              src={require("../assets/images/android_black.png")}
+              src={require("../assets/images/android_club_logo.png")}
               alt="android logo "
               width={52}
             />
