@@ -50,7 +50,7 @@ function Navbar() {
                 width="54"
                 height="50"
               />{" "}
-              Android club
+              Android Club
             </a>
             <button
               className="navbar-toggler"

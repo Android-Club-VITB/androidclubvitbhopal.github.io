@@ -68,7 +68,7 @@ function Footer() {
             <img
               src={require("../assets/images/android_club_logo.png")}
               alt="android logo "
-              width={52}
+              width={82}
             />
           </a>
 
@@ -80,7 +80,7 @@ function Footer() {
             <img
               src="https://www.mpnvva.in/Image/UniversityLogo?instituteID=35"
               alt="VIT Bhopal"
-              width={110}
+              width={170}
             />
           </a>
 

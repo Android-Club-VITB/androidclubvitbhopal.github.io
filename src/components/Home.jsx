@@ -4,6 +4,7 @@ function Home() {
   return (
     <div id="home" className="container">
       <div className="home-content">
+        <h2>Welcome To</h2>
         <h1>Android Club VIT Bhopal</h1>
         <br></br>
         <p className="home-description">
