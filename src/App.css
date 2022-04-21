@@ -93,6 +93,9 @@ img.faculty-profile-img {
   width: fit-content;
   border-radius: 60px;
 }
+.faculty-wrapper{
+  width: 67vw;
+}
 .faculty-about {
   display: flex;
   flex-direction: column;
