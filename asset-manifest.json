@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.19dd589d.css",
+    "main.css": "/static/css/main.5772c80c.css",
     "main.js": "/static/js/main.bd852d94.js",
     "static/js/787.33d2fe70.chunk.js": "/static/js/787.33d2fe70.chunk.js",
     "static/media/national-workshop-banner.jpg": "/static/media/national-workshop-banner.d2251f087c74fa9a58f8.jpg",
@@ -14,12 +14,12 @@
     "static/media/amit.jpg": "/static/media/amit.2918e4faf6055c0aefc1.jpg",
     "static/media/rohan.jpg": "/static/media/rohan.e6fad50a7d49d53ba0a7.jpg",
     "index.html": "/index.html",
-    "main.19dd589d.css.map": "/static/css/main.19dd589d.css.map",
+    "main.5772c80c.css.map": "/static/css/main.5772c80c.css.map",
     "main.bd852d94.js.map": "/static/js/main.bd852d94.js.map",
     "787.33d2fe70.chunk.js.map": "/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19dd589d.css",
+    "static/css/main.5772c80c.css",
     "static/js/main.bd852d94.js"
   ]
 }
