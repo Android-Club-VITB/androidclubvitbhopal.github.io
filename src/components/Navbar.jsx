@@ -1,17 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Navbar() {
-  const [show, handleShow] = useState(true);
-  let navItemsVisible = false;
-  const navitemsContent = "";
-  
-  const checkDeviceDimension = () =>{
-    if(window.innerWidth < 700){
-      return;
-    }
-  };
-
-  checkDeviceDimension();
+  const [show, handleShow] = useState(false);
   
   useEffect(() => {
     
@@ -43,7 +33,7 @@ function Navbar() {
     <React.Fragment>
       <nav
         className={`navbar fixed-top navbar-expand-lg navbar-light ${
-          show && "bg-light"
+          (window.innerWidth > 700) ? show && "bg-light" : "bg-light"
         }`}
       >
         <div className="container container-fluid navbar-mobile">
