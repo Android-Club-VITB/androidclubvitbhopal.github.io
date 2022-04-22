@@ -196,9 +196,20 @@ img.faculty-profile-img {
 
 @media only screen and (max-width: 700px) {
 
+  .event-register-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .event-register-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: auto;
+  }
+
   .card-container {
     object-position: center;
-    width: 35vw;
+    width: 3vw;
     margin:15px 0px;
   }
 
