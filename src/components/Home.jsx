@@ -4,7 +4,7 @@ function Home() {
   return (
     <div id="home" className="container">
       <div className="home-content">
-        <h1>Android Club VIT Bhopal</h1>
+        <h1 style={{textAlign:"center"}}>Android Club VIT Bhopal</h1>
         <br></br>
         <p className="home-description">
           We at Android Club are driven to achieve excellence and solve problems

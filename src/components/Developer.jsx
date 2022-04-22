@@ -9,7 +9,7 @@ function Developer() {
       <p  style={{marginTop:"150px", textAlign:"center"}} className="faculty-title">Developed by</p>
             <div className="about-content-container" > 
                 {/* <p className="faculty-title" style={{textAlign:"center"}}>Developed by</p> */}
-                <div id="wed-developer" className="col-md-2" >
+                <div id="web-developer" className="col-md-2" >
                 <Member
                     profileimg={require("../assets/profileimg/amit.jpg")}
                     title="Amit Verma"

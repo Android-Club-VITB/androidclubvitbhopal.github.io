@@ -60,8 +60,8 @@ nav.bg-light {
   padding-top: 80px;
 }
 .event {
-  width: 85%;
-  height: 66vh;
+  width: 75%;
+  height: 65vh;
   margin-top: 10px;
   box-shadow: 0px 0px 4px #5454552f;
 }
@@ -79,13 +79,14 @@ nav.bg-light {
 /* Events component */
 .card-container {
   object-position: center;
-  width: 100%;
-  margin:15px 27px;
+  width: 34vw;
+  margin:15px 0px;
 }
 .card-img-top {
-  height: 30vh;
+  height: 14rem;
   object-position: 0% 27%;
   object-fit: cover;
+  object-position: center center;
 }
 
 /* Faculty */
@@ -169,8 +170,8 @@ img.faculty-profile-img {
   align-items: center;
   justify-content: center;
 }
-#lead-tech,#lead-nontech{
-  width: 15vw;
+#lead-tech,#lead-nontech,#web-developer{
+  width: 14rem;
 }
 #lead-nontech{
   margin-left: 75px;
@@ -193,7 +194,21 @@ img.faculty-profile-img {
   width: 30vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
+  .card-container {
+    object-position: center;
+    width: 35vw;
+    margin:15px 0px;
+  }
+
+  .event {
+    width: 84%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 4px #5454552f;
+  }
+
   .form-container{
     margin:25px 0px;
     padding: 20px;
@@ -250,8 +265,8 @@ img.faculty-profile-img {
     right: 0;
   }
 
-  #lead-tech,#lead-nontech{
-    width: 67vw;
+  #lead-tech,#lead-nontech,#web-developer{
+    width: 16rem;
   }
 
   #lead-nontech{
@@ -259,6 +274,12 @@ img.faculty-profile-img {
     margin-left: 0px;
   }
 
+  .card-container {
+    object-position: center;
+    width: 100%;
+    margin:15px 0px;
+    margin-left: 8%;
+  }
   
 }
 

@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from "react";
 
 function Navbar() {
-  const [show, handleShow] = useState(false);
+  const [show, handleShow] = useState(true);
   let navItemsVisible = false;
   const navitemsContent = "";
-
-
-  useEffect(() => {
-
-    if(window.innerWidth < 600){
-      handleShow(true);
+  
+  const checkDeviceDimension = () =>{
+    if(window.innerWidth < 700){
       return;
     }
+  };
 
+  checkDeviceDimension();
+  
+  useEffect(() => {
+    
     window.addEventListener("scroll", () => {
       if ( window.scrollY > 50) {
         handleShow(true);
@@ -21,19 +23,21 @@ function Navbar() {
         handleShow(false);
       }
     });
-
+    
     return () => {
       window.removeEventListener("scroll");
     };
   }, []);
 
- 
-
+  
+  
+  
   const handleNavOnclick = () => {
     document.getElementById('navbarSupportedContent').classList.toggle("active");
   }
+  
 
- // handleNavOnclick();
+
 
   return (
     <React.Fragment>
