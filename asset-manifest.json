@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.4b8098f6.css",
-    "main.js": "/static/js/main.e3a5abb9.js",
+    "main.js": "/static/js/main.70454a69.js",
     "static/js/787.33d2fe70.chunk.js": "/static/js/787.33d2fe70.chunk.js",
     "static/media/national-workshop-banner.jpg": "/static/media/national-workshop-banner.d2251f087c74fa9a58f8.jpg",
     "static/media/android_club_logo.png": "/static/media/android_club_logo.5f97446cd2f8d0cf0df9.png",
+    "static/media/v-code.png": "/static/media/v-code.1d58e3a733a15b9415a5.png",
     "static/media/blind-coding.png": "/static/media/blind-coding.f86c24d0c3cd3526de5c.png",
     "static/media/tamanna.jpeg": "/static/media/tamanna.c000315f35824e9bae93.jpeg",
     "static/media/code-roid.png": "/static/media/code-roid.6b56cc51457247c918b0.png",
@@ -15,11 +16,11 @@
     "static/media/rohan.jpg": "/static/media/rohan.e6fad50a7d49d53ba0a7.jpg",
     "index.html": "/index.html",
     "main.4b8098f6.css.map": "/static/css/main.4b8098f6.css.map",
-    "main.e3a5abb9.js.map": "/static/js/main.e3a5abb9.js.map",
+    "main.70454a69.js.map": "/static/js/main.70454a69.js.map",
     "787.33d2fe70.chunk.js.map": "/static/js/787.33d2fe70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b8098f6.css",
-    "static/js/main.e3a5abb9.js"
+    "static/js/main.70454a69.js"
   ]
 }
