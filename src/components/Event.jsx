@@ -1,7 +1,7 @@
 import React from "react";
 
 function Event(props) {
-  const max_desc_length = 55;
+  const max_desc_length = 120;
 
   return (
     <div className="card-container">
