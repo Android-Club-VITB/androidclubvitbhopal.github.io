@@ -34,10 +34,23 @@ function PastEvents() {
 
           <div className="col-md-4">
             <Event
+              imageurl={require("../assets/event/v-code.png")}
+              title="V-Code"
+              desc="Android App Developing Competition"
+              schedule_date="March 29, 2019"
+              schedule_time="11:00 AM - 2:00 PM"
+              venue="Coding Studio 2"
+              linktojoin="https://www.instagram.com/androidclub.vitb/"
+              disabled="disabled"
+            />
+          </div> 
+
+          <div className="col-md-4">
+            <Event
               imageurl={require("../assets/event/blind-coding.png")}
               title="Blind Coding V2.0"
               desc="Blind coding competition"
-              schedule_date="06/12/2019"
+              schedule_date="December 6, 2019"
               schedule_time="1:30 PM - 4:30 PM"
               venue="Coding Studio 1 & 2"
               linktojoin="https://www.instagram.com/androidclub.vitb/"
@@ -50,7 +63,7 @@ function PastEvents() {
               imageurl={require("../assets/event/national-workshop-banner.jpg")}
               title="Workshop on Android Application Development"
               desc="3 days National Workshop on Android Application Development"
-              schedule_date="16/03/2018 - 18/03/2018"
+              schedule_date="March 16 - March 18, 2018"
               schedule_time="Whole Day"
               venue="Computer Studio 2"
               linktojoin="https://www.instagram.com/androidclub.vitb/"
@@ -58,8 +71,6 @@ function PastEvents() {
             />
           </div> 
 
-        
-        
 
       </div>
     </div>
