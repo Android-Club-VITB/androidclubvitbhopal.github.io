@@ -8,6 +8,19 @@ function PastEvents() {
         
           <div className="col-md-4">
             <Event
+              imageurl={require("../assets/event/code-roid.png")}
+              title="Code-Roid"
+              desc={"And Online Coding Competition"}
+              schedule_date="April 22, 2022"
+              schedule_time="10:00AM - 12:00PM"
+              venue="Online"
+              linktojoin="https://docs.google.com/forms/d/e/1FAIpQLSeEJjAor60CNVFeR6CccS5vxPC9JLLfR_DQi8vuiqI5UXSXSQ/viewform"
+              disabled="disabled"
+            />
+          </div>
+
+          <div className="col-md-4">
+            <Event
               imageurl={require("../assets/event/handson-workshop.png")}
               title="Android Masterclass"
               desc={"Rachit Goyal \n - Senior Android Lead at Walmart Labs"}
